@@ -11,6 +11,7 @@ namespace SkyEditor.RomEditor.Avalonia.ViewModels.Rtdx
         {
             this.Model = model ?? throw new ArgumentNullException(nameof(model));
             StartersCollection = new RtdxStarterCollectionViewModel(model.GetStarters(), model.GetCommonStrings());
+            DungeonsCollection = new RtdxDungeonCollectionViewModel(model.GetDungeons(), model.GetCommonStrings());
         }
 
         public RtdxRom Model { get; }
@@ -18,6 +19,7 @@ namespace SkyEditor.RomEditor.Avalonia.ViewModels.Rtdx
         public override string Name => Path.GetFileName(Model.RomDirectory);
 
         public RtdxStarterCollectionViewModel StartersCollection { get; }
+        public RtdxDungeonCollectionViewModel DungeonsCollection { get; }
 
         /// <summary>
         /// Signals that properties on the model were changed and the view model should emit property changed events where appropriate
@@ -25,6 +27,7 @@ namespace SkyEditor.RomEditor.Avalonia.ViewModels.Rtdx
         public void ReloadFromModel()
         {
             StartersCollection.ReloadFromModel();
+            DungeonsCollection.ReloadFromModel();
         }
 
         /// <summary>

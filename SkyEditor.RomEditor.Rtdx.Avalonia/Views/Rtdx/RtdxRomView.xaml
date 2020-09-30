@@ -9,5 +9,8 @@
     <TabItem Header="{x:Static Properties:Resources.Views_Rtdx_RtdxRomView_StartersCollection}">
       <ContentControl Content="{Binding StartersCollection}" />
     </TabItem>
+    <TabItem Header="{x:Static Properties:Resources.Views_Rtdx_RtdxRomView_DungeonsCollection}">
+      <ContentControl Content="{Binding DungeonsCollection}" />
+    </TabItem>
   </TabControl>
 </UserControl>

@@ -10,6 +10,7 @@ namespace SkyEditor.RomEditor.Domain.Rtdx.Models
     {
         IDungeonModel[] Dungeons { get; }
         IDungeonModel? GetDungeonById(DungeonIndex id);
+        void Flush();
     }
 
     public class DungeonCollection : IDungeonCollection
@@ -49,6 +50,23 @@ namespace SkyEditor.RomEditor.Domain.Rtdx.Models
             }
             dungeons.Sort((d1, d2) => d1.Data.SortKey.CompareTo(d2.Data.SortKey));
             return dungeons.ToArray();
+        }
+
+        public void Flush()
+        {
+            var dungeonExtra = rom.GetDungeonExtra();
+            var dungeonBalance = rom.GetDungeonBalance();
+            foreach (var dungeon in Dungeons)
+            {
+                if (dungeon.Extra != null)
+                {
+                    dungeonExtra.Entries[dungeon.Id] = dungeon.Extra;
+                }
+                if (dungeon.Balance != null)
+                {
+                    dungeonBalance.Entries[dungeon.Data.DungeonBalanceIndex] = dungeon.Balance;
+                }
+            }
         }
     }
 }

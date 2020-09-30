@@ -408,6 +408,10 @@ namespace SkyEditor.RomEditor.Domain.Rtdx
             {
                 starterCollection.Flush();
             }
+            if (dungeonCollection != null)
+            {
+                dungeonCollection.Flush();
+            }
 
             // Save the files themselves
             if (mainExecutable != null)

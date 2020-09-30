@@ -376,6 +376,24 @@ namespace SkyEditor.RomEditor.Avalonia.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        public static string Views_Rtdx_RtdxDungeonView_Name {
+            get {
+                return ResourceManager.GetString("Views_Rtdx_RtdxDungeonView_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dungeons.
+        /// </summary>
+        public static string Views_Rtdx_RtdxRomView_DungeonsCollection {
+            get {
+                return ResourceManager.GetString("Views_Rtdx_RtdxRomView_DungeonsCollection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Starters.
         /// </summary>
         public static string Views_Rtdx_RtdxRomView_StartersCollection {

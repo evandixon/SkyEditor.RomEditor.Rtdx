@@ -222,6 +222,12 @@
   <data name="Views_MainWindowView_SaveMenuItem" xml:space="preserve">
     <value>_Save</value>
   </data>
+  <data name="Views_Rtdx_RtdxDungeonView_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Views_Rtdx_RtdxRomView_DungeonsCollection" xml:space="preserve">
+    <value>Dungeons</value>
+  </data>
   <data name="Views_Rtdx_RtdxRomView_StartersCollection" xml:space="preserve">
     <value>Starters</value>
   </data>
