@@ -119,7 +119,7 @@ Note that all mods will be applied to Pokémon Mystery Dungeon: Rescue Team DX, 
 ### Scripts
 The most basic layer of modification is the script. These are C# (.csx files) or Lua (.lua files) that have access to a ROM and can modify its contents in any way the Sky Editor library supports.
 
-See SkyEditor.RomEditor.Infrastructure.Automation.ScriptContext for which globals are available.
+See SkyEditor.RomEditor.Domain.Automation.ScriptContext for which globals are available.
 
 ### Mods
 A mod is a collection of one or more scripts that serve the same end goal. To make a mod, create a directory and make a mod.json file with contents that look like the following:

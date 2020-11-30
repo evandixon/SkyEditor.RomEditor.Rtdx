@@ -1,5 +1,5 @@
 ﻿using ReactiveUI;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using System;
 
 namespace SkyEditor.RomEditor.Avalonia.ViewModels.Automation

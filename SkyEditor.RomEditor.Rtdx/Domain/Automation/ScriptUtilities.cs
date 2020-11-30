@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation
+namespace SkyEditor.RomEditor.Domain.Automation
 {
     public class ScriptUtilities
     {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     public class ModpackBuilder
     {

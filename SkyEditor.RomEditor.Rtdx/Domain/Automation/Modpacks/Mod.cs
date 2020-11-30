@@ -1,11 +1,13 @@
 ﻿using SkyEditor.IO.FileSystem;
+using SkyEditor.RomEditor.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using FileSystemExtensions = SkyEditor.RomEditor.Infrastructure.FileSystemExtensions;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     public class Mod : IScriptModAccessor
     {

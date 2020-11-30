@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Text;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     public class ModMetadata
     {

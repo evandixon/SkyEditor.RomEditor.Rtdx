@@ -3,7 +3,7 @@ using SkyEditor.IO.Binary;
 using SkyEditor.IO.FileSystem;
 using SkyEditor.RomEditor.Domain.Psmd;
 using SkyEditor.RomEditor.Domain.Rtdx;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using System;
 using System.Collections.Generic;
 using System.IO;

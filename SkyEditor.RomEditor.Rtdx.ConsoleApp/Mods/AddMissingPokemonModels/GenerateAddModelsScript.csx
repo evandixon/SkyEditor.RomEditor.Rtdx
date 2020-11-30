@@ -14,7 +14,7 @@ using SkyEditor.RomEditor.Domain.Rtdx.Constants;
 Console.WriteLine(@"#load ""../../Stubs/RTDX.csx""
 
 using System;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using SkyEditor.RomEditor.Domain.Rtdx.Constants;
 using SkyEditor.RomEditor.Domain.Rtdx.Structures;
 

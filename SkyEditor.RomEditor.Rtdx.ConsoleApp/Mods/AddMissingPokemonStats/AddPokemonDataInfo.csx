@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SkyEditor.RomEditor.Domain.Rtdx.Structures;
 using SkyEditor.RomEditor.Domain.Rtdx.Constants;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 
 class CommonPokemonDataInfoEntry
 {

@@ -1,4 +1,4 @@
-﻿namespace SkyEditor.RomEditor.Infrastructure.Automation.Lua
+﻿namespace SkyEditor.RomEditor.Domain.Automation.Lua
 {
     public interface ILuaExpressionGenerator : IScriptExpressionGenerator
     {

@@ -4,7 +4,7 @@ using ReactiveUI;
 using SkyEditor.IO.FileSystem;
 using SkyEditor.RomEditor.Avalonia.Infrastructure;
 using SkyEditor.RomEditor.Domain.Rtdx;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using System;
 using System.Collections.Generic;
 using System.Linq;

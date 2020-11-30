@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+﻿namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     public struct Script
     {

@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     /// <summary>
     /// Access layer for scripts to interact with a mod

@@ -1,10 +1,7 @@
-﻿using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+﻿using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation
+namespace SkyEditor.RomEditor.Domain.Automation
 {
     public class ScriptContext<TTarget> where TTarget : IModTarget
     {

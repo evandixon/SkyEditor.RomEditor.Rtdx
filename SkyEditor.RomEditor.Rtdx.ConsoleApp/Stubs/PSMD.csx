@@ -11,5 +11,5 @@
 #r "../SkyEditor.IO.dll"
 
 SkyEditor.RomEditor.Domain.Psmd.IPsmdRom Rom;
-SkyEditor.RomEditor.Infrastructure.Automation.Modpacks.IScriptModAccessor Mod;
-SkyEditor.RomEditor.Infrastructure.Automation.ScriptUtilities Utilities;
+SkyEditor.RomEditor.Domain.Automation.Modpacks.IScriptModAccessor Mod;
+SkyEditor.RomEditor.Domain.Automation.ScriptUtilities Utilities;

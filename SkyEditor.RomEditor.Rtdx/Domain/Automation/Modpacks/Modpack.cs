@@ -9,7 +9,7 @@ using System.IO.Compression;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SkyEditor.RomEditor.Infrastructure.Automation.Modpacks
+namespace SkyEditor.RomEditor.Domain.Automation.Modpacks
 {
     public class Modpack : IDisposable
     {

@@ -4,7 +4,7 @@ using DynamicData;
 using ReactiveUI;
 using SkyEditor.IO.FileSystem;
 using SkyEditor.RomEditor.Avalonia.Infrastructure;
-using SkyEditor.RomEditor.Infrastructure.Automation.Modpacks;
+using SkyEditor.RomEditor.Domain.Automation.Modpacks;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
